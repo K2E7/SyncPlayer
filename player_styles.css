@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #DDE8F4;
+
+}
+
+#player {
+    width: 60vw;
+}
+
+
+.card {
+    margin: 32px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #E0EAF5;
+    box-shadow:
+        inset 1px 1px 0.5px rgba(255, 255, 255, 0.65),
+        3px 3px 8px rgba(0, 0, 96, 0.1),
+        -3px -3px 8px rgba(255, 255, 255, .56);
+    color: rgba(0, 0, 0, 0.4);
+    transition:
+        background-color 300ms,
+        box-shadow 300ms;
+
+}
+
+#side {
+    margin: 16px;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+    box-shadow:
+        inset 1px 1px 1px rgba(255, 255, 255, 0.72),
+        12px 12px 32px rgba(0, 0, 96, 0.1),
+        -12px -12px 32px rgba(255, 255, 255, .56);
+    background-color: #DDE8F4;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    transition:
+        background-color 300ms,
+        box-shadow 300ms;
+    cursor: pointer;
+}
+
+#side:active {
+    background-color: #E0EAF5;
+    box-shadow:
+        inset 1px 1px 1px rgba(255, 255, 255, 0.72),
+        3px 3px 8px rgba(0, 0, 96, 0.1),
+        -3px -3px 8px rgba(255, 255, 255, .56);
+}
