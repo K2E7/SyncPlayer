@@ -1,26 +1,16 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <title>SyncPlayer</title>
-</head>
-<link rel="stylesheet" href="./player_styles.css">
-<body>
-    <div class="select" id="side">
-        /
-    </div>
+<div class="select" id="side">
+   /
+</div>
 
-    <div class="card">
-        <video id="player" controls>
-             <!-- Initially, there is no source -->
-        </video>
-    </div>
+<div class="card">
+    <video id="player" controls>
+        
+    </video>
+</div>
 
-    <div class="sync" id="side">
-        ↺
-    </div>
-</body>
-    
+<div class="sync" id="side">
+  
 <script>
     // Get the necessary elements
     const selectDiv = document.getElementById("side");
@@ -46,5 +36,3 @@
         fileInput.click();
     });
 </script>
-
-</html>
